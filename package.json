@@ -1,0 +1,28 @@
+{
+  "name": "notfound",
+  "author": "Handri Hermawan",
+  "email": "email",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=production vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/compiler-sfc": "^3.2.45",
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^2.2.19",
+    "vite": "^3.2.4"
+  },
+  "resolutions": {
+    "postcss": "^8.4.19"
+  }
+}
