@@ -28,7 +28,7 @@
       <div class="flex flex-col gap-6">
         <div class="flex flex-col items-center gap-x-8 rounded-md bg-gray-700 p-3 md:flex-row">
           <div class="shrink-0">
-            <img class="h-36 w-36" src="img/project.svg" alt="Project Web Design" loading="lazy" />
+            <img src="/img/project.png" class="h-24 w-32" width="40" height="40" loading="lazy" alt="Arunika Design System" />
           </div>
           <div>
             <div class="flex flex-col items-center gap-y-2 md:flex-row">
@@ -45,7 +45,7 @@
         </div>
         <div class="flex flex-col items-center gap-x-8 rounded-md bg-gray-700 p-3 md:flex-row">
           <div class="shrink-0">
-            <img class="h-36 w-36" src="img/project.svg" alt="Project Web Design" loading="lazy" />
+            <img src="/img/project.png" class="h-24 w-32" width="40" height="40" loading="lazy" alt="Tegsa Adventure Travel" />
           </div>
           <div>
             <div class="flex flex-col items-center gap-y-2 md:flex-row">
