@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-gray-800 text-white overflow-hidden">
+  <div class="bg-gray-900 text-white overflow-hidden">
     <nav class="md:p-2">
       <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <a href="/">
-                <img class="w-12 h-8" src="/img/logos/h.png" loading="eager" width="48" height="32" alt="logo handri hermawan" />
+              <a href="/" aria-label="logo handri">
+                <img class="w-full h-8 aspect-square" src="/img/logos/h.webp" loading="eager" width="48" height="32" alt="logo handri hermawan" />
               </a>
             </div>
             <div class="hidden md:block">
@@ -19,7 +19,7 @@
           </div>
 
           <div class="flex -mr-2 md:hidden">
-            <button class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white" @click="showMenu = !showMenu">
+            <button type="button" aria-label="menu" class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white" @click="showMenu = !showMenu">
               <svg class="block w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>

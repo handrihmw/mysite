@@ -2,13 +2,13 @@
   <main>
     <header>
       <div class="max-w-screen-xl py-6 mx-auto px-6 lg:px-8">
-        <h1 class="text-3xl font-bold leading-tight text-gray-100">About Me</h1>
+        <h1 class="text-3xl font-bold leading-tight text-gray-100">About <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 lg:pr-8">Me</span></h1>
         <hr class="w-5 border bg-gray-400" />
       </div>
     </header>
     <div class="my-7 md:grid-cols-2 xl:grid-cols-4 mx-auto max-w-3xl">
       <div class="flex flex-col justify-content-center items-center text-center p-8 group">
-        <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="/img/handri.png" loading="lazy" width="32" height="32" alt="handri hermawan" />
+        <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="/img/handri.webp" loading="lazy" width="32" height="32" alt="handri hermawan" />
         <h1 class="mt-6 text-2xl font-semibold text-white capitalize dark:text-white">Handri Hermawan</h1>
         <p class="mt-2 capitalize text-gray-300 dark:text-gray-500">Front End, Web Performance, Design System</p>
         <p class="my-8 text-gray-400 dark:text-gray-500">I am a developer with about 2 years of experience individually or working in companies and governments. graduated from University of Technology Yogyakarta. Interested in Application development. Hard-working, Like new things, and good time management. I like to play music, draw, bike and adventure in my spare time</p>
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="grid grid-cols-1 gap-6 md:grid-cols-3 m-5">
-      <div class="overflow-hidden rounded-md bg-gray-700" v-for="item in items">
+      <div class="overflow-hidden rounded-md bg-gray-800" v-for="item in items">
         <div class="px-4 pt-5 pb-6">
           <h2 class="text-xl font-semibold">{{ item.title }}</h2>
           <p class="mt-3 text-sm text-gray-200">{{ item.place }}</p>

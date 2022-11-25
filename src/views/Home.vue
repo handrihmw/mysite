@@ -18,7 +18,7 @@
       </div>
       <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
         <a :href="item.link" v-for="item in items">
-          <div class="overflow-hidden rounded-md bg-gray-700">
+          <div class="overflow-hidden rounded-md bg-gray-800">
             <div class="aspect-w-3 aspect-h-2">
               <img class="h-full w-full object-cover object-center as-card-image" :src="item.image" width="315" height="240" loading="lazy" alt="Image {{ item.title }}" />
             </div>
@@ -38,26 +38,26 @@
   import { ref } from "vue"
 
   const items = ref([
-    {
+  {
       title: "Multi-Page Application dengan Webpack 5",
-      image: "https://miro.medium.com/max/1400/1*QzV0QkDzyCW270CeDrX0Ug.webp",
+      image: "/img/1_QzV0QkDzyCW270CeDrX0Ug.webp",
       link: "https://handri.medium.com/multi-page-application-config-dengan-webpack-5-5de3b9b3a2e5",
       date: "Nov 16, 2022",
       description: "Pada sebuah project saya pernah menemukan kasus dimana saya harus memisahkan beberapa file css dan js..."
     },
     {
       title: "Membuat Button Custom dengan Mixins SCSS",
-      image: "https://miro.medium.com/max/1400/1*Qeo2hQOH5nTQIimi0exccQ.webp",
+      image: "/img/1_Qeo2hQOH5nTQIimi0exccQ.webp",
       link: "https://handri.medium.com/membuat-button-custom-dengan-mixins-scss-8bc94db1900a",
       date: "Oct 24, 2022",
       description: "Ketika kita ingin mengembangkan sebuah website salah satu yang harus di perhatikan adalah menentukan tema..."
     },
     {
       title: "Cara Custom Font Style di SCSS",
-      image: "https://miro.medium.com/max/1400/1*JOCrTdkJz7U6dtdEWF4DdA.png",
+      image: "/img/1_JOCrTdkJz7U6dtdEWF4DdA.webp",
       link: "https://handri.medium.com/cara-custom-font-style-di-scss-49287449822f",
       date: "Sep 27, 2022",
       description: "Memilih jenis font yang sesuai dengan tema atau materi halaman web atau blog merupakan hal yang penting agar..."
-    }
+    },
   ])
 </script>
