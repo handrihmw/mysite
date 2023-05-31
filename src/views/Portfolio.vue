@@ -70,6 +70,20 @@
 
   const items = ref([
     {
+      title: "Culture Rangers Batch 2022 Niagahoster",
+      image: "img/1676267828580.webp",
+      link: "",
+      role: "Organizer",
+      date: "Jun 13, 2022"
+    },
+    {
+      title: "Devcussion 14.0: Membangun Website yang Accessibility Friendly",
+      image: "img/1670553613633.webp",
+      link: "https://www.youtube.com/watch?v=7pdprHtWDeE",
+      role: "Speaker",
+      date: "Dec 8, 2022"
+    },
+    {
       title: "Devcussion 8.0: A Beginers Guide to Web 3.0",
       image: "img/1658578800479.webp",
       link: "https://www.youtube.com/watch?v=dY7UsDLSbLw",

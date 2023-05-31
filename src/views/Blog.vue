@@ -35,6 +35,20 @@
   import { ref } from "vue"
 
   const items = ref([
+  {
+      title: "Enum dalam TypeScript: Alat Bantu yang Ampuh untuk...",
+      image: "/img/1_ud0sEpluCXzmf9Jr7x37UA.webp",
+      link: "https://handri.medium.com/enum-dalam-typescript-alat-bantu-yang-ampuh-untuk-keamanan-pengetikan-dan-kejelasan-kode-66c57bfc2159",
+      date: "May 15, 2023",
+      description: "Enum dalam TypeScript menyediakan mekanisme yang berharga bagi pengembang untuk mendefinisikan sekumpulan..."
+    },
+    {
+      title: "Cara Membuat Copy Paste Teks Menggunakan Javascript",
+      image: "/img/1_s-B7G59Xks7WGSXZBTnYTA.webp",
+      link: "https://handri.medium.com/cara-membuat-copy-pasteteks-menggunakan-javascript-b45003025321",
+      date: "Feb 8, 2023",
+      description: "Saat membuat halaman web dan aplikasi yang sudah mulai kompleks, terkadang kita ingin menambahkan fitur copy paste agar..."
+    },
     {
       title: "Multi-Page Application dengan Webpack 5",
       image: "/img/1_QzV0QkDzyCW270CeDrX0Ug.webp",

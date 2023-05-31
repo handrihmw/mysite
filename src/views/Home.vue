@@ -2,10 +2,10 @@
   <main>
     <div class="mx-auto max-w-screen-lg px-8 lg:px-1 py-6 mb-8">
       <div class="container lg:pr-8">
-        <h1 class="text-6xl lg:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 lg:pr-8">Hi, I'm Handri Hermawan.</h1>
+        <h1 class="text-6xl lg:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 lg:pr-8">Hi, I'm Handri.</h1>
         <div class="flex flex-col lg:flex-row lg:items-center gap-3 mt-6">
           <hr class="w-10 border bg-gray-400" />
-          <span class="md:text-md font-medium text-gray-400"> Front End, Web Performance, Design System </span>
+          <span class="md:text-md font-medium text-gray-400"> Front End Developer, Web Performance, Design System </span>
         </div>
       </div>
     </div>
@@ -38,7 +38,21 @@
   import { ref } from "vue"
 
   const items = ref([
-  {
+    {
+      title: "Enum dalam TypeScript: Alat Bantu yang Ampuh untuk...",
+      image: "/img/1_ud0sEpluCXzmf9Jr7x37UA.webp",
+      link: "https://handri.medium.com/enum-dalam-typescript-alat-bantu-yang-ampuh-untuk-keamanan-pengetikan-dan-kejelasan-kode-66c57bfc2159",
+      date: "May 15, 2023",
+      description: "Enum dalam TypeScript menyediakan mekanisme yang berharga bagi pengembang untuk mendefinisikan sekumpulan..."
+    },
+    {
+      title: "Cara Membuat Copy Paste Teks Menggunakan Javascript",
+      image: "/img/1_s-B7G59Xks7WGSXZBTnYTA.webp",
+      link: "https://handri.medium.com/cara-membuat-copy-pasteteks-menggunakan-javascript-b45003025321",
+      date: "Feb 8, 2023",
+      description: "Saat membuat halaman web dan aplikasi yang sudah mulai kompleks, terkadang kita ingin menambahkan fitur copy paste agar..."
+    },
+    {
       title: "Multi-Page Application dengan Webpack 5",
       image: "/img/1_QzV0QkDzyCW270CeDrX0Ug.webp",
       link: "https://handri.medium.com/multi-page-application-config-dengan-webpack-5-5de3b9b3a2e5",
@@ -58,6 +72,13 @@
       link: "https://handri.medium.com/cara-custom-font-style-di-scss-49287449822f",
       date: "Sep 27, 2022",
       description: "Memilih jenis font yang sesuai dengan tema atau materi halaman web atau blog merupakan hal yang penting agar..."
+    },
+    {
+      title: "Membuat Accordion di Vue 3 dan Bootstrap 5",
+      image: "/img/1_7LllZRcn-CFr0bMLBO2aig.webp",
+      link: "https://handri.medium.com/membuat-accordion-di-vue-3-a5f83a5dc6a",
+      date: "Aug 18, 2022",
+      description: "Komponen Accordion sangat berguna dan dapat ditemukan di banyak library seperti Bootstrap, Tailwind, Foundation..."
     },
   ])
 </script>
